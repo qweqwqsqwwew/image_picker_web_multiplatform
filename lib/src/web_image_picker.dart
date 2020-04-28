@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'dart:html' as html;
+import 'package:universal_html/prefer_universal/html.dart' as html;
 
 class WebImagePicker {
   Future<Map<String, dynamic>> pickImage() async {
